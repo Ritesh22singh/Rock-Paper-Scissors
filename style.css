@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    /* Here we set hole page margin , padding  */
+}
+
+h1{
+    background-color: #635C51;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* Here we are styling heading  */
+}
+
+.choise{
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Here we are going to styling our game div where we placed img */
+    
+}
+
+.choises :hover{
+    cursor: pointer;
+    background-color: #585123;
+    
+    /* Here we set hover effect on the choices so when we touch the img, we will know */
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  
+    /* Here we are styling image of rock, paper and scissor */
+    /* object-fit: cover;     By use to this img will fit in div*/  
+}
+
+.choises{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    border-radius: 50%;
+
+    /* Here we are styling all img which is used in game */
+
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+    gap: 5rem;
+
+    /* Here We are styling user score and computer score section */
+}
+
+#comp-score,#user-score{
+    font-size: 2rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color:#50514F ;
+    color: #fff;
+    padding: 1rem;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2rem;
+
+    /* This one is for msg section */
+}
+
+.reset{
+    padding: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    display: grid;
+    place-items: center;
+    margin-left: 32.5rem;
+    
+    /* This one is for reset section */
+}
+
+#btn {
+    background-color: #13070C;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    padding: 0.5rem;
+
+    /* Here we are styling our btn */
+    
+}
+
